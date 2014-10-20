@@ -1,7 +1,5 @@
 $( document ).ready(function() {
 
-	setHomeActive();
-
 	$('#portfolio-nav').click(function(){
 		$('#portfolio').removeClass('right-hidden');
 		$('#portfolio').removeClass('left-hidden');
